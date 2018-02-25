@@ -9,10 +9,6 @@ import registerServiceWorker from './registerServiceWorker'
 
 const store = createStore(reducers)
 
-store.subscribe(() => {
-  console.log(store.getState())
-})
-
 ReactDOM.render(
   <Provider store={store}>
     <App />

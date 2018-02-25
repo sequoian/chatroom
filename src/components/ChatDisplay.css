@@ -1,0 +1,26 @@
+ul {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #151515;
+}
+
+li {
+  word-wrap: break-word;
+  padding-bottom: 10px;
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
+
+li div {
+  display: inline-block;
+  max-width: 100%;
+  border: 1px solid #d400d4;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  background-color: #921a92;
+  line-height: 1.5em;
+}

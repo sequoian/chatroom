@@ -1,11 +1,13 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import './ChatDisplay.css'
 
 const ChatDisplay = ({messages}) => (
-  <ul>
+  <ul className="chat-display">
+    <li><div>This is a really long test message.  It will be used to test message format and styling.  TODO: delete this before production release.</div></li>
     {messages.map(msg => (
       <li key={msg.created}>
-        {msg.text}
+        <div>{msg.text}</div>
       </li>
     ))}
   </ul>
