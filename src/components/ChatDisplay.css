@@ -1,13 +1,13 @@
 ul {
   flex: 1;
-  padding: 10px;
+  padding: .8em;
   overflow-y: auto;
   background-color: #151515;
 }
 
 li {
   word-wrap: break-word;
-  padding-bottom: 10px;
+  padding-bottom: .8em;
 }
 
 li:last-child {
@@ -19,7 +19,7 @@ li div {
   max-width: 100%;
   border: 1px solid #d400d4;
   border-radius: 8px;
-  padding: 5px;
+  padding: .4em .7em;
   color: white;
   background-color: #921a92;
   line-height: 1.5em;

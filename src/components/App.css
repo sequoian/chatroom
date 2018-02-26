@@ -9,4 +9,11 @@
   flex-direction: column;
   justify-content: space-between;
   font-family: sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .App {
+    font-size: 18px;
+  }
 }

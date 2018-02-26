@@ -22,6 +22,7 @@ let SendMessage = ({dispatch}) => {
           ref={node => input = node}
           placeholder="Message"
           autoFocus
+          autoComplete="off"
         />
         <button>Send</button>
       </form>

@@ -25,6 +25,14 @@ class ScrollManager {
     this.msgAlert.addEventListener('click', () => {
       this.scrollToBottom()
     })
+
+    window.addEventListener('resize', () => {
+      const scrollPercentage = this.display.scrollTop / (this.display.scrollHeight - this.display.clientHeight)
+      this.scrollPosition = isNaN(scrollPercentage) ? 1 : scrollPercentage
+      if (this.scrollPosition >= 1) {
+        this.msgAlert.style.visibility = 'hidden'
+      }
+    })
   }
 
   scrollToBottom() {
