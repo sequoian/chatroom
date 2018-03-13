@@ -1,9 +1,7 @@
 form {
   position: relative;
-  background-color: #690069;
-  border-top: 1px solid #d400d4;
-  padding: 15px 10px;
   display: flex;
+  border: 2px solid #5a005a;
 }
 
 input {
@@ -31,6 +29,8 @@ form button {
 
 .footer {
   position: relative;
+  background-image: linear-gradient(to top, #690069 40%, #b701b7 100%);
+  padding: 15px 10px;
 }
 
 #msg-alert {

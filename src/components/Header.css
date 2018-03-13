@@ -1,11 +1,11 @@
 .header {
   color: white;
-  background-color: #690069;
-  border-bottom: 1px solid #d400d4;
+  background-image: linear-gradient(to bottom, #690069 40%, #b701b7 100%);
   text-align: center;
 }
 
 h1 {
   font-size: 2em;
   padding: .5em 0;
+  font-weight: 700;
 }
