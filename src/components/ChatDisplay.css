@@ -17,9 +17,13 @@ li:last-child {
 li div {
   display: inline-block;
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 1em;
   padding: .6em .8em;
   color: white;
   background-color: #921a92;
   line-height: 1.5em;
 }
+
+/* .tooltip {
+  background-color: gray !important;
+} */
