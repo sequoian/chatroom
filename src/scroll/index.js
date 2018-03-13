@@ -13,11 +13,11 @@ class ScrollManager {
       }
     })
 
-    this.display.addEventListener('DOMNodeInserted', () => {
+    this.display.addEventListener('DOMNodeInserted', e => {
       if (this.scrollPosition >= 1) {
         this.scrollToBottom()
       }
-      else {
+      else if (e.target.nodeName === 'LI') {
         this.msgAlert.style.visibility = 'visible'
       }
     })

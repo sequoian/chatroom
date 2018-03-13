@@ -1,7 +1,12 @@
+.footer {
+  position: relative;
+  background-image: linear-gradient(to top, #690069 40%, #b701b7 100%);
+  padding: 15px 10px;
+}
+
 form {
   position: relative;
   display: flex;
-  border: 2px solid #5a005a;
 }
 
 input {
@@ -27,12 +32,6 @@ form button {
   cursor: pointer;
 }
 
-.footer {
-  position: relative;
-  background-image: linear-gradient(to top, #690069 40%, #b701b7 100%);
-  padding: 15px 10px;
-}
-
 #msg-alert {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -46,8 +45,9 @@ form button {
   cursor: pointer;
   color: white;
   background-color: #690069;
-  border: 1px solid #d400d4;
+  border: 2px solid #d400d4;
   border-bottom: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  outline: none;
 }
